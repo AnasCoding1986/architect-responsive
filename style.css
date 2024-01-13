@@ -11,7 +11,12 @@ body{
     width: 75%;
     margin: 0 auto;
     max-width: 1400px;
-    text-align: center;
+    /* text-align: center; */
+}
+.section-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
 }
 .description{
     color: var(--Dark-03, #727272);
@@ -56,14 +61,12 @@ body{
     font-weight: 500;
     line-height: 26px;
 }
-.header .banner{
-
-}
 .header .banner .banner-top{
     max-width: 50%;
     margin: 0 auto; 
     margin-top: 100px;
     margin-bottom: 50px;
+    text-align: center;
 }
 .header .banner .banner-top p{
     margin: 50px 0;
@@ -80,7 +83,48 @@ body{
     width: 100%;
 }
 
+/* ================Feature CSS================ */
+.feature{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    margin-top: 80px;
+}
+.feature .feature-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 50%;
+    gap: 1%;
+}
+.feature .feature-img .feature-image{
+    border-radius: 8px;
+}
+.feature .feature-img .feature-image img{
+    width: 100%;
+}
+.feature .feature-description{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 60px;
+}
+#feature-title-span-one{
+    color: #131313;
+}
+#feature-title-span-two{
+    color: #FF900E;
+}
+.feature .feature-description .feature-title{
 
+}
+.feature .feature-description p{
+    margin: 25px 0;
+}
+
+
+/* ================Responsive CSS================ */
 @media screen and (max-width: 576px){
     .container{
         width: 95%;
@@ -108,12 +152,14 @@ body{
         margin: 20px 0;
     }
     .header .banner-img{
-        margin-top: 30px;
+        margin-top: 40px;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px){
-
+    .header .banner .banner-title{
+        font-size: 30px;
+    }
 }
 
 
