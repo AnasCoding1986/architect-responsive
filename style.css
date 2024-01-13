@@ -37,11 +37,7 @@ body{
 
 /* ================Header CSS================ */
 .header{
-    padding-top: 2.5%
-    
-    
-    
-    ;
+    padding-top: 2.5%;
 }
 .header nav{
     display: flex;
@@ -120,9 +116,6 @@ body{
 }
 #feature-title-span-two{
     color: #FF900E;
-}
-.feature .feature-description .feature-title{
-
 }
 .feature .feature-description p{
     margin: 25px 0;
