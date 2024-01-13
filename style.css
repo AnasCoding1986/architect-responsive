@@ -1,5 +1,119 @@
+/* ================Common CSS================ */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+    max-width: 1400px;
+    text-align: center;
+}
+.description{
+    color: var(--Dark-03, #727272);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 30px;
+    border: none;
+}
+
+
+/* ================Header CSS================ */
+.header{
+    padding-top: 50px;
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header nav .nav-title{
+    margin-left: -15px;
+}
+.header nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.header ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.header .banner{
+
+}
+.header .banner .banner-top{
+    max-width: 50%;
+    margin: 0 auto; 
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.header .banner .banner-top p{
+    margin: 50px 0;
+}
+.header .banner .banner-title{
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+}
+.header .banner-img{
+    margin-bottom: 45px;
+}
+.header .banner-img img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 576px){
+    .container{
+        width: 95%;
+    }
+    .header nav, .header nav ul{
+        flex-direction: column;
+    }
+    .header nav .nav-title{
+        margin-left: 0;
+    }
+    .header nav ul{
+        margin: 20px 0;
+    }
+    .header ul li{
+        margin-left: 0px;
+    }
+    .header .banner .banner-title{
+        font-size: 30px;
+    }
+    .header .banner .banner-top{
+        max-width: 90%;
+        margin: 0 auto; 
+    }
+    .header .banner .banner-top p{
+        margin: 20px 0;
+    }
+    .header .banner-img{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
