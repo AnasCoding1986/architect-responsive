@@ -121,6 +121,81 @@ body{
     margin: 25px 0;
 }
 
+/* ================Feature Two================ */
+.feature-two{
+    display: flex;
+    justify-content: space-between;
+}
+.feature-two .feature-two-description{
+    width: 50%;
+}
+.feature-two .feature-two-description h2{
+    position: relative;
+}
+.feature-two .feature-two-description h2::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 5px;
+    background: #FF900E;
+    left: -20px;
+}
+.feature-two .feature-two-description p{
+    margin: 25px 0;
+}
+.feature-two .feature-two-description .feature-two-description-box{
+    display: flex;
+    flex-direction: column;
+}
+.feature-two .feature-two-description .feature-two-description-box .feature-two-description-box-item{
+    padding: 30px;
+}
+.feature-two .feature-two-description .feature-two-description-box .feature-two-description-box-item .title-p{
+    color:#131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+.feature-two .feature-two-description .feature-two-description-box .feature-two-description-box-item .descriptio-p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 80%;
+}
+.feature-two .feature-two-banner{
+    width: 50%;
+}
+.feature-two .feature-two-banner .feature-two-banner-img{
+
+}
+.feature-two .feature-two-banner .feature-two-banner-img img{
+
+}
+.feature-two .feature-two-banner .feature-two-banner-descrition{
+    padding: 45px;
+    border-radius: 8px;
+    background: #FF900E;
+    display: inline-block;
+    position: relative;
+    bottom: 95px;
+    left: -80px;
+}
+.feature-two .feature-two-banner .feature-two-banner-descrition h4{
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.feature-two .feature-two-banner .feature-two-banner-descrition p{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+
+
+
 
 /* ================Responsive CSS================ */
 @media screen and (max-width: 576px){
